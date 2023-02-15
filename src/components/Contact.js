@@ -14,11 +14,16 @@ const Contact = () => {
             dollar toast asymmetrical echo park 3 wolf moon stumptown craft
             beer.
           </p>
-          <form className='contact-form'>
+          <form
+            className='contact-form'
+            action='https://formspree.io/f/moqzezyy'
+            method='POST'
+          >
             <input
               type='email'
               className='form-input'
               placeholder='enter email'
+              name='email'
             />
             <button type='submit' className='submit-btn'>
               subscribe
