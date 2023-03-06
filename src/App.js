@@ -34,27 +34,6 @@ const App = () => {
             }
           />
           <Route path='*' element={<Error />} />
-          {/* <Route exact path='/'>
-            <Home />
-          </Route>
-          <Route exact path='/about'>
-            <About />
-          </Route>
-          <Route exact path='/cart'>
-            <Cart />
-          </Route>
-          <Route exact path='/products'>
-            <Products />
-          </Route>
-          <Route exact path='/products/:id'>
-            <SingleProduct />
-          </Route>
-          <PrivateRoute exact path='/checkout'>
-            <Checkout />
-          </PrivateRoute>
-          <Route path='*'>
-            <Error />
-          </Route> */}
         </Routes>
         <Footer />
       </Router>
